@@ -1,4 +1,4 @@
 Ouvrir un compte Epargne
-Gérer le compte bancaire
-Gérer le compte épargne
+Gerer le compte Bancaire
+Gerer le compte Epargne
 Quitter
