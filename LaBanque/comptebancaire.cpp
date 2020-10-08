@@ -36,7 +36,7 @@ void CompteBancaire::Deposer(const float _montant)
   @file comptebancaire.cpp
  * @brief CompteBancaire::Retirer
  * @param _montant
- * @return
+ * @return retour
  * @details Fonction qui permet de savoir si on peut retirer le montant souhaité et le fait si cela est possible
  */
 bool CompteBancaire::Retirer(const float _montant)
@@ -60,7 +60,7 @@ bool CompteBancaire::Retirer(const float _montant)
 /**
   @file comptebancaire.cpp
  * @brief CompteBancaire::ConsulterSolde
- * @return
+ * @return solde
  * @details Fonction qui permet de consulter le solde de son compte bancaire
  */
 float CompteBancaire::ConsulterSolde()
