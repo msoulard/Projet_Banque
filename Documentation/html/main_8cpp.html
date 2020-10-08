@@ -92,6 +92,7 @@ $(document).ready(function(){initNavTree('main_8cpp.html','');});
 <code>#include &quot;<a class="el" href="menu_8h_source.html">menu.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="comptebancaire_8h_source.html">comptebancaire.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="compteepargne_8h_source.html">compteepargne.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="compteclient_8h_source.html">compteclient.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Graphe des dépendances par inclusion de main.cpp:</div>
 <div class="dyncontent">
@@ -125,15 +126,12 @@ Fonctions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Demander s'il y a un solde initiale du compte épargne</p>
-<p>Si le choix est oui alors on initialise le compte bancaire avec le solde donné</p>
-<p>Sinon le solde initiale est de 0</p>
-<p>Demander le choix à l'utilisateur le temps qu'il n'est pas 5</p>
+<p>Demander le choix à l'utilisateur le temps qu'il n'est pas 4</p>
 <p>Afficher le menu et attendre le choix de l'utilisateur</p>
 <p>Différent choix possible de l'utilisateur</p>
-<p>Si le choix est 1, on affiche le solde du compte épargne</p>
-<p>Si le choix est 2, on demande le montant du dépôt et on fait appel à la fonction Deposer de la classe <a class="el" href="class_compte_bancaire.html">CompteBancaire</a></p>
-<p>Si le choix est 3, on demande le montant du retrait, on fait appel à la fonction Retirer de la classe <a class="el" href="class_compte_bancaire.html">CompteBancaire</a> et on dit à l'utilisateur si son retrait est possible ou non </p>
+<p>Si le choix est 1, on crée un compte épargne</p>
+<p>Si le choix est 2, on fait appel à la fonction pour gérer le compte bancaire</p>
+<p>Si le choix est 3, on fait appel à la fonction gérer le compte épargne </p>
 
 </div>
 </div>

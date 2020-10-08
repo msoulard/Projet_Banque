@@ -21,4 +21,10 @@ digraph "/home/USERS/ELEVES/SNIR2019/msoulard/ProjetsQt/ProgrammationObjetC++/TP
   Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node8 [label="compteepargne.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$compteepargne_8h.html"];
   Node8 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="compteclient.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$compteclient_8h.html",tooltip="The CompteClient class. "];
+  Node9 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

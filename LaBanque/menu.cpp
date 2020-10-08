@@ -20,11 +20,6 @@ Menu::Menu(const string &_nom):
     options(nullptr)
 
 {
-   // this->nom = _nom;
-   // this->longueurMax = 0;
-   // this->nbOptions = 0;
-   // this->options = nullptr;
-
     ifstream fichierMenu(this->nom);
     if (fichierMenu.fail()){
             string message = " file not found !!";
@@ -139,7 +134,9 @@ void Menu::AttendreAppuiTouche()
 Exception::Exception(int _code, std::string _message):
     code(_code),
     message(_message)
-{}
+{
+    
+}
 
 int Exception::ObtenirCodeErreur() const
 {
